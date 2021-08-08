@@ -86,6 +86,7 @@ class Api:
             t[1] = tinvest.OperationTypeWithCommission.broker_commission.name
             t[2] = round(-1 * money * COMISSION, 2)
             t[6] = 0
+            t[8] = 0
 
             self.data.append(t)
 
@@ -95,6 +96,7 @@ class Api:
                 t[1] = tinvest.OperationTypeWithCommission.tax.name
                 t[2] = round(-1 * pos.expected_yield.value * TAX, 2)
                 t[6] = 0
+                t[8] = 0
 
                 self.data.append(t)
 

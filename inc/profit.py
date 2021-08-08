@@ -45,11 +45,11 @@ class Profit:
         # СКОЛЬКО ЗАВЕЛ НА СЧЕТ, я заводил только рубли todo:Учесть ввод долл
         self.payed_in = sum([op[2] for op in self.data if op[1] == 'pay_in'])
         # todo: Учесть вывод, ещё не выводил
-        # self.payed_out'] = sum([op[2] for op in data if op[1] == 'pay_out'])
+        # self.payed_out = sum([op[2] for op in data if op[1] == 'pay_out'])
 
         # ПРОДАЖА ДОЛЛАРОВ за рубли, но можно и не продавать, тогда todo:учесть вывод долл
         self.usd_sell = self.usd_amount_calculated * self.usdrur
-        # self.exchange'] = self.usd_sell'] + self.rub_for_usd'] # todo:надо бы учитывать налоги
+        # self.exchange = self.usd_sell + self.rub_for_usd # todo:надо бы учитывать налоги
 
         # TOTAL - уже всключает все расходы (комиссии и налоги) кот указаны в таблице
         self.total = round(self.rub_amount_calculated + self.usd_sell - self.payed_in,2)

@@ -11,7 +11,7 @@
 
 ## Все подробно здесь
 
-- [Видео]() с разбором скрипта. Если есть вопросы/пожелания - пиши под этим видео в комментарии.
+- [Видео](https://youtu.be/MEreqcTRq6c) с разбором скрипта. Если есть вопросы/пожелания - пиши под этим видео в комментарии.
 - [Плейлист](https://www.youtube.com/watch?v=PjKMDtLuKPU&list=PLWVnIRD69wY4ane3amNJSFQfls1inhaub) по Open API Тинькофф Инвестиций. С полного нуля.
 - [Видео](https://youtu.be/dn3Oi7oaMT4) по работе с Excel из Python
 

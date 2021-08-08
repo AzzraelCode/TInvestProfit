@@ -1,4 +1,5 @@
 inc/tcs.py
 data.xlsx
+*.xlsx
 .idea
 __pycache__
