@@ -3,7 +3,7 @@ from datetime import datetime
 import tinvest
 
 from .api import Api
-from . import DT_FORMAT
+from .constants import DT_FORMAT
 
 """
 Рассчитываю все что нужно мне рассчитать

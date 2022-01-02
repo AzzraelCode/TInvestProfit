@@ -4,7 +4,8 @@ from operator import itemgetter
 import tinvest
 from tinvest import SyncClient
 
-from . import tcs, DT_FORMAT, COMISSION, TAX
+from .tcs import key as tcs_key
+from .constants import DT_FORMAT, COMISSION, TAX
 
 """
 Запросы к Open API Тинькофф Инвестиций 
@@ -14,7 +15,7 @@ class Api:
     def __init__(self):
         self.tikers = {}
         self.data = []
-        self.client = SyncClient(tcs.key)
+        self.client = SyncClient(tcs_key)
         self.broker_account_id = None
 
         # self.broker_account_id = self.select_account()
