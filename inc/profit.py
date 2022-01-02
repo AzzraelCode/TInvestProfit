@@ -2,8 +2,8 @@ from datetime import datetime
 
 import tinvest
 
-from inc.api import Api
-from inc import DT_FORMAT
+from .api import Api
+from . import DT_FORMAT
 
 """
 Рассчитываю все что нужно мне рассчитать

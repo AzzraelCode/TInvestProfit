@@ -1,6 +1,6 @@
 from openpyxl import Workbook
 
-from inc.profit import Profit
+from .profit import Profit
 
 """
 Клаcc для записи расчетов

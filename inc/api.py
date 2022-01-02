@@ -4,7 +4,7 @@ from operator import itemgetter
 import tinvest
 from tinvest import SyncClient
 
-from inc import tcs, DT_FORMAT, COMISSION, TAX
+from . import tcs, DT_FORMAT, COMISSION, TAX
 
 """
 Запросы к Open API Тинькофф Инвестиций 
